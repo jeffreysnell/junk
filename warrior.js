@@ -11,8 +11,6 @@ class Player {
     constructor() {
         this.previousHealth = 20;
     }
-
-
     playTurn(warrior) {
 
         const nextSpace = warrior.feel();
